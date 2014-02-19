@@ -8,18 +8,13 @@
  *
  * @copyright  bit3 UG 2013
  * @author     Tristan Lins <tristan.lins@bit3.de>
- * @package    avisota/contao-message-element-image
+ * @package    avisota/contao-core
  * @license    LGPL-3.0+
  * @filesource
  */
 
 
 /**
- * Message elements
+ * Mailing content elements
  */
-$GLOBALS['TL_MCE']['images'][] = 'image';
-
-/**
- * Events
- */
-$GLOBALS['TL_EVENT_SUBSCRIBERS'][] = 'Avisota\Contao\Message\Element\Image\DefaultRenderer';
+$GLOBALS['TL_LANG']['MCE']['image']     = array('Image', 'Generates a stand-alone image.');
