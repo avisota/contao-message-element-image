@@ -49,3 +49,10 @@ $GLOBALS['TL_LANG']['orm_avisota_message_content']['caption']     = array(
 	'Image caption',
 	'Here you can enter a short text that will be displayed below the image.'
 );
+
+
+/**
+ * Legends
+ */
+$GLOBALS['TL_LANG']['orm_avisota_message_content']['image_legend']   = 'Image settings';
+$GLOBALS['TL_LANG']['orm_avisota_message_content']['imglink_legend'] = 'Image link settings';
