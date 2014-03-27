@@ -10,6 +10,6 @@
 		{% if headline %}
 			<{{ hl }}>{{ headline }}</{{ hl }}>
 		{% endif %}
-		{{ mce.image(singleSRC, { 'alt': alt, 'size': size, 'margin': imagemargin, 'url': imageUrl, 'caption': caption }) }}
+		{{ mce.image(imageSource, { 'alt': imageAlt, 'size': imageSize, 'margin': imageMargin, 'url': imageUrl, 'caption': imageCaption }) }}
 	{% endspaceless %}
 {% endblock %}

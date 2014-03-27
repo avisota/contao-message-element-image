@@ -21,19 +21,19 @@
 $GLOBALS['TL_DCA']['orm_avisota_message_content']['metapalettes']['image']       = array
 (
 	'type'   => array('type', 'cell', 'headline'),
-	'source' => array('singleSRC'),
-	'image'  => array('alt', 'size', 'imagemargin', 'imageUrl', 'caption'),
+	'source' => array('imageSource'),
+	'image'  => array('imageAlt', 'imageSize', 'imageMargin', 'imageUrl', 'imageCaption'),
 	'expert' => array(':hide', 'cssID', 'space')
 );
 $GLOBALS['TL_DCA']['orm_avisota_message_content']['metasubpalettes']['addImage'] = array
 (
-	'singleSRC',
-	'alt',
-	'size',
-	'imagemargin',
+	'imageSource',
+	'imageAlt',
+	'imageSize',
+	'imageMargin',
 	'imageUrl',
-	'caption',
-	'floating',
+	'imageCaption',
+	'imageFloating',
 );
 
 
@@ -44,33 +44,33 @@ $GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['addImage']    = arr
 	'inputType' => 'checkbox',
 	'eval'      => array('submitOnChange' => true)
 );
-$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['singleSRC']   = array
+$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['imageSource']   = array
 (
-	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['singleSRC'],
+	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['imageSource'],
 	'exclude'   => true,
 	'inputType' => 'fileTree',
 	'eval'      => array('fieldType' => 'radio', 'files' => true, 'mandatory' => true, 'tl_class' => 'clr')
 );
-$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['alt']         = array
+$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['imageAlt']         = array
 (
-	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['alt'],
+	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['imageAlt'],
 	'exclude'   => true,
 	'search'    => true,
 	'inputType' => 'text',
 	'eval'      => array('maxlength' => 255, 'tl_class' => 'long')
 );
-$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['size']        = array
+$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['imageSize']        = array
 (
-	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['size'],
+	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['imageSize'],
 	'exclude'   => true,
 	'inputType' => 'imageSize',
 	'options'   => array('crop', 'proportional', 'box'),
 	'reference' => &$GLOBALS['TL_LANG']['MSC'],
 	'eval'      => array('rgxp' => 'digit', 'nospace' => true, 'tl_class' => 'w50')
 );
-$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['imagemargin'] = array
+$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['imageMargin'] = array
 (
-	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['imagemargin'],
+	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['imageMargin'],
 	'exclude'   => true,
 	'inputType' => 'trbl',
 	'options'   => array('px', '%', 'em', 'pt', 'pc', 'in', 'cm', 'mm'),
@@ -89,17 +89,17 @@ $GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['imageUrl']    = arr
 		'tl_class'       => 'w50 wizard'
 	),
 );
-$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['caption']     = array
+$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['imageCaption']     = array
 (
-	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['caption'],
+	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['imageCaption'],
 	'exclude'   => true,
 	'search'    => true,
 	'inputType' => 'text',
 	'eval'      => array('maxlength' => 255, 'tl_class' => 'w50')
 );
-$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['floating']    = array
+$GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['imageFloating']    = array
 (
-	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['floating'],
+	'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['imageFloating'],
 	'default'   => 'above',
 	'exclude'   => true,
 	'inputType' => 'radioTable',
