@@ -20,7 +20,7 @@
  */
 $GLOBALS['TL_DCA']['orm_avisota_message_content']['metapalettes']['image']       = array
 (
-	'type'      => array('type', 'cell', 'headline'),
+	'type'      => array('cell', 'type', 'headline'),
 	'source'    => array('imageSource'),
 	'image'     => array('imageAlt', 'imageSize', 'imageMargin', 'imageUrl', 'imageCaption'),
 	'expert'    => array(':hide', 'cssID', 'space'),
