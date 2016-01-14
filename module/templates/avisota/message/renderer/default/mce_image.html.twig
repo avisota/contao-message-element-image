@@ -6,10 +6,10 @@
 {% set headline = headline.value %}
 
 {% block content %}
-	{% spaceless %}
-		{% if headline %}
-			<{{ hl }}>{{ headline }}</{{ hl }}>
-		{% endif %}
-		{{ mce.image(imageSource, { 'alt': imageAlt, 'size': imageSize, 'margin': imageMargin, 'url': imageUrl, 'caption': imageCaption }) }}
-	{% endspaceless %}
+    {% spaceless %}
+        {% if headline %}
+            <{{ hl }}>{{ headline }}</{{ hl }}>
+        {% endif %}
+        {{ mce.image(imageSource, { 'alt': imageAlt, 'size': imageSize, 'margin': imageMargin, 'url': imageUrl, 'caption': imageCaption }) }}
+    {% endspaceless %}
 {% endblock %}

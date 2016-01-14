@@ -13,11 +13,10 @@
  * @filesource
  */
 
-
 /**
  * Module
  */
 $GLOBALS['TL_LANG']['MOD']['avisota-message-element-image'] = array(
-	'Avisota - Message element "Image"',
-	'"Image" message element for Avisota messages.'
+    'Avisota - Message element "Image"',
+    '"Image" message element for Avisota messages.'
 );
