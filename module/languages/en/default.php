@@ -13,8 +13,7 @@
  * @filesource
  */
 
-
 /**
  * Mailing content elements
  */
-$GLOBALS['TL_LANG']['MCE']['image']     = array('Image', 'Generates a stand-alone image.');
+$GLOBALS['TL_LANG']['MCE']['image'] = array('Image', 'Generates a stand-alone image.');
