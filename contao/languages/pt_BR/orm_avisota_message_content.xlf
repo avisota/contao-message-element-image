@@ -1,0 +1,78 @@
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="php" date="2014-05-06T04:03:58+02:00" original="orm_avisota_message_content" source-language="en" target-language="pt-BR">
+    <body>
+      <trans-unit id="orm_avisota_message_content.addImage.0">
+        <source>Add an image</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.addImage.1">
+        <source>Add an image to the content element.</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageUrl.0">
+        <source>Image link target</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageUrl.1">
+        <source>A custom image link target will override the lightbox link, so the image cannot be viewed fullsize anymore.</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.image_legend">
+        <source>Image settings</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imglink_legend">
+        <source>Image link settings</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageSource.0">
+        <source>Source file</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageSource.1">
+        <source>Please select a file or folder from the files directory.</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageAlt.0">
+        <source>Alternate text</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageAlt.1">
+        <source>Here you can enter an alternate text for the image (&lt;em&gt;alt&lt;/em&gt; attribute).</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageSize.0">
+        <source>Image width and height</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageSize.1">
+        <source>Here you can set the image dimensions and the resize mode.</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageMargin.0">
+        <source>Image margin</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageMargin.1">
+        <source>Here you can enter the top, right, bottom and left margin.</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageFloating.0">
+        <source>Image alignment</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageFloating.1">
+        <source>Please specify how to align the image.</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageCaption.0">
+        <source>Image caption</source>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageCaption.1">
+        <source>Here you can enter a short text that will be displayed below the image.</source>
+        
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
