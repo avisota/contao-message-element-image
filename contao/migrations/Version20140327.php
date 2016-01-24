@@ -39,19 +39,23 @@ class Version20140327 extends AbstractMigration
         $table = $schema->getTable('orm_avisota_message_content');
 
         if ($table->hasColumn('singleSRC')) {
-            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE singleSRC imageSource BLOB DEFAULT NULL COMMENT \'(DC2Type:binaryString)\'');
+            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE singleSRC' .
+                          ' imageSource BLOB DEFAULT NULL COMMENT \'(DC2Type:binaryString)\'');
         }
         if ($table->hasColumn('alt')) {
             $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE alt imageAlt VARCHAR(255) DEFAULT NULL');
         }
         if ($table->hasColumn('size')) {
-            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE size imageSize TEXT DEFAULT NULL COMMENT \'(DC2Type:serialized)\'');
+            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE size ' .
+                          'imageSize TEXT DEFAULT NULL COMMENT \'(DC2Type:serialized)\'');
         }
         if ($table->hasColumn('caption')) {
-            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE caption imageCaption VARCHAR(255) DEFAULT NULL');
+            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE caption ' .
+                          'imageCaption VARCHAR(255) DEFAULT NULL');
         }
         if ($table->hasColumn('floating')) {
-            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE floating imageFloating TEXT DEFAULT NULL COMMENT \'(DC2Type:serialized)\'');
+            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE floating ' .
+                          'imageFloating TEXT DEFAULT NULL COMMENT \'(DC2Type:serialized)\'');
         }
     }
 
@@ -69,19 +73,23 @@ class Version20140327 extends AbstractMigration
         $table = $schema->getTable('orm_avisota_message_content');
 
         if ($table->hasColumn('imageSource')) {
-            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE imageSource singleSRC BLOB DEFAULT NULL COMMENT \'(DC2Type:binaryString)\'');
+            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE ' .
+                          'imageSource singleSRC BLOB DEFAULT NULL COMMENT \'(DC2Type:binaryString)\'');
         }
         if ($table->hasColumn('imageAlt')) {
             $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE imageAlt alt VARCHAR(255) DEFAULT NULL');
         }
         if ($table->hasColumn('imageSize')) {
-            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE imageSize size TEXT DEFAULT NULL COMMENT \'(DC2Type:serialized)\'');
+            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE ' .
+                          'imageSize size TEXT DEFAULT NULL COMMENT \'(DC2Type:serialized)\'');
         }
         if ($table->hasColumn('imageCaption')) {
-            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE imageCaption caption VARCHAR(255) DEFAULT NULL');
+            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE ' .
+                          'imageCaption caption VARCHAR(255) DEFAULT NULL');
         }
         if ($table->hasColumn('imageFloating')) {
-            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE imageFloating floating TEXT DEFAULT NULL COMMENT \'(DC2Type:serialized)\'');
+            $this->addSql('ALTER TABLE orm_avisota_message_content CHANGE ' .
+                          'imageFloating floating TEXT DEFAULT NULL COMMENT \'(DC2Type:serialized)\'');
         }
     }
 }
