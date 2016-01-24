@@ -44,6 +44,11 @@
             "Avisota\\Contao\\Message\\Element\\Image\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Avisota\\Test\\Contao\\Message\\Element\\Image\\": "tests/Test/"
+        }
+    },
     "extra": {
         "contao": {
             "sources": {
