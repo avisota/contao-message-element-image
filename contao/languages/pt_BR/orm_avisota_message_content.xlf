@@ -3,10 +3,12 @@
     <body>
       <trans-unit id="orm_avisota_message_content.addImage.0">
         <source>Add an image</source>
+        <target>Adicionar uma imagem</target>
         
       </trans-unit>
       <trans-unit id="orm_avisota_message_content.addImage.1">
         <source>Add an image to the content element.</source>
+        <target>Adicione uma imagem para o elemento de conteúdo.</target>
         
       </trans-unit>
       <trans-unit id="orm_avisota_message_content.imageUrl.0">
