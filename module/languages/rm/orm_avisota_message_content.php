@@ -1,10 +1,11 @@
 <?php
+
 /**
  * Translations are managed using Transifex. To create a new translation
  * or to help to maintain an existing one, please register at transifex.com.
  *
- * @link http://help.transifex.com/intro/translating.html
- * @link https://www.transifex.com/projects/p/avisota-contao/language/rm/
+ * @link    http://help.transifex.com/intro/translating.html
+ * @link    https://www.transifex.com/projects/p/avisota-contao/language/rm/
  *
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  *
@@ -41,4 +42,3 @@ $GLOBALS['TL_LANG']['orm_avisota_message_content']['singleSRC']['0']     = 'Dato
 $GLOBALS['TL_LANG']['orm_avisota_message_content']['singleSRC']['1']     = 'Tscherna ina datoteca u in ordinatur da la structura d\'ordinaturs.';
 $GLOBALS['TL_LANG']['orm_avisota_message_content']['size']['0']          = 'Ladezza ed autezza dal maletg';
 $GLOBALS['TL_LANG']['orm_avisota_message_content']['size']['1']          = 'Qua pos ti definir las dimensiuns dal maletg ed il modus da midar grondezza.';
-
