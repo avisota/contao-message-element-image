@@ -1,0 +1,96 @@
+<?xml version="1.0" ?><xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file datatype="php" date="2014-05-06T04:03:58+02:00" original="orm_avisota_message_content" source-language="en" target-language="rm">
+    <body>
+      <trans-unit id="orm_avisota_message_content.addImage.0">
+        <source>Add an image</source>
+        <target>Agiuntar in maletg</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.addImage.1">
+        <source>Add an image to the content element.</source>
+        <target>Agiuntar in maletg a l'element da cuntegn.</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageUrl.0">
+        <source>Image link target</source>
+        <target>Destinaziun da la colliaziun dal maletg</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageUrl.1">
+        <source>A custom image link target will override the lightbox link, so the image cannot be viewed fullsize anymore.</source>
+        <target>Ina colliaziun persunalisada che surscriva la colliaziun da lightbox, uschè ch'il maletg na po betg pli vegnir contemplà en la versiun gronda.</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.image_legend">
+        <source>Image settings</source>
+        <target>Configuraziun dal maletg</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imglink_legend">
+        <source>Image link settings</source>
+        <target>Configuraziun da la colliaziun da maletgs</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageSource.0">
+        <source>Source file</source>
+        <target>Datoteca da funtauna</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageSource.1">
+        <source>Please select a file or folder from the files directory.</source>
+        <target>Tscherna ina datoteca u in ordinatur da la structura d'ordinaturs.</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageAlt.0">
+        <source>Alternate text</source>
+        <target>Text alternativ</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageAlt.1">
+        <source>Here you can enter an alternate text for the image (&lt;em&gt;alt&lt;/em&gt; attribute).</source>
+        <target>Qua pos ti endatar in text alternativ per il maletg (attribut &lt;em&gt;alt&lt;/em&gt;).</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageSize.0">
+        <source>Image width and height</source>
+        <target>Ladezza ed autezza dal maletg</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageSize.1">
+        <source>Here you can set the image dimensions and the resize mode.</source>
+        <target>Qua pos ti definir las dimensiuns dal maletg ed il modus da midar grondezza.</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageMargin.0">
+        <source>Image margin</source>
+        <target>Distanza dal maletg</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageMargin.1">
+        <source>Here you can enter the top, right, bottom and left margin.</source>
+        <target>Qua pos ti inditgar ina distanza per sura, dretg, sut e sanester dal maletg.</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageFloating.0">
+        <source>Image alignment</source>
+        <target>Alignament dal maletg</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageFloating.1">
+        <source>Please specify how to align the image.</source>
+        <target>Specifitgescha l'alignament dal maletg.</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageCaption.0">
+        <source>Image caption</source>
+        <target>Legenda dal maletg</target>
+        
+      </trans-unit>
+      <trans-unit id="orm_avisota_message_content.imageCaption.1">
+        <source>Here you can enter a short text that will be displayed below the image.</source>
+        <target>Qua pos ti endatar in curt text che vegn visualisà sut il maletg</target>
+        
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
