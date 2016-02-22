@@ -3,10 +3,12 @@
     <body>
       <trans-unit id="MCE.image.0">
         <source>Image</source>
+        <target>Imagem</target>
         
       </trans-unit>
       <trans-unit id="MCE.image.1">
         <source>Generates a stand-alone image.</source>
+        <target>Gera uma imagem independente.</target>
         
       </trans-unit>
     </body>

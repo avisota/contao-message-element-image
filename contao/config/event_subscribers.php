@@ -13,7 +13,8 @@
  * @filesource
  */
 
-/**
- * Message elements
- */
-$GLOBALS['TL_MCE']['images'][] = 'image';
+use Avisota\Contao\Message\Element\Image\DefaultRenderer;
+
+return array(
+    new DefaultRenderer()
+);
