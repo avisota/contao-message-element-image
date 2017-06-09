@@ -61,9 +61,9 @@ $GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['imageSize'] = array
     'label'     => &$GLOBALS['TL_LANG']['orm_avisota_message_content']['imageSize'],
     'exclude'   => true,
     'inputType' => 'imageSize',
-    'options'   => array('crop', 'proportional', 'box'),
+    'options'   => System::getImageSizes(),
     'reference' => &$GLOBALS['TL_LANG']['MSC'],
-    'eval'      => array('rgxp' => 'digit', 'nospace' => true, 'tl_class' => 'w50')
+    'eval'      => array('rgxp' => 'digit', 'includeBlankOption'=>true, 'nospace' => true, 'tl_class' => 'w50')
 );
 
 $GLOBALS['TL_DCA']['orm_avisota_message_content']['fields']['imageMargin'] = array(
